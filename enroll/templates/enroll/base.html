@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.min.css'}" /> -->
+    <title>Dashboard-Student</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-center alert alert-danger">
+        Function Based View ModelForm CRUD Project
+      </h2>
+      {% block content %} {% endblock content %}
+    </div>
+    <!-- <script src="{% static 'enroll/js/jquery.js' %}"></script>
+    <script src="{% static 'enroll/js/proper.js' %}"></script>
+    <script src="{% static 'enroll/js/bootstrap.min.js' %}"></script> -->
+  </body>
+</html>
